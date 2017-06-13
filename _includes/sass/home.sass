@@ -4,9 +4,9 @@
   #home-bg
     position: absolute
     top: 0
-    left: -5px
-    height: calc(100% + 10px)
-    width: calc(100% + 10px)
+    left: -10px
+    height: calc(100vh + 20px)
+    width: calc(100% + 15px)
     z-index: -1
     filter: blur(5px)
     background:
@@ -20,15 +20,22 @@
     display: flex
     align-items: center
     justify-content: center
-    height: calc(100vh - 120px)
+    height: calc(100% - 120px)
     width: 100%
 
     #title
 
       h1
         font-size: 100px
+        text-align: center
 
       span
         display: block
         font-size: 30px
         text-align: center
+
+  #header-fix
+    position: absolute
+    bottom: 0
+    height: 120px
+    width: 100%
