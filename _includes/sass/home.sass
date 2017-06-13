@@ -1,20 +1,25 @@
-#home_wrap
-  position: absolute
-  top: 0
-  height: 520px
-  width: 100%
-  z-index: -1
-  background:
-    image: url(../images/cover.jpg)
-    size: cover
+#home
+  height: calc(100vh + 10px)
 
-  #home
+  #home-bg
     position: absolute
-    bottom: 0
+    top: 0
+    left: -5px
+    height: calc(100% + 10px)
+    width: calc(100% + 10px)
+    z-index: -1
+    filter: blur(5px)
+    background:
+      image: url(../images/covers/home.jpg)
+      size: cover
+
+  #home-content
+    position: absolute
+    top: 120px
     display: flex
     align-items: center
     justify-content: center
-    height: 400px
+    height: calc(100vh - 120px)
     width: 100%
 
     #title
@@ -22,6 +27,7 @@
       h1
         font-size: 100px
 
-      p
+      span
+        display: block
         font-size: 30px
         text-align: center
