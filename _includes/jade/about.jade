@@ -1,8 +1,12 @@
 section#about
   h1 Who are we ?
-  img(src='images/staff/1.jpg')
-  img(src='images//staff/2.jpg')
-  img(src='images/staff/3.jpg')
-  img(src='images/staff/4.jpg')
-  img(src='images/staff/5.jpg')
+  
+  for image in public.images.staff._contents
+    .staff-container
+      .staff
+        img(src='images/staff/faces/#{ image }')
+        .player-id
+          span Player ID
+          img(src='images/staff/mains/#{ image }')
+      
   p QUT Overwatch are a bunch of people who are interested in meeting new people and playing Overwatch. We all come from different backgrounds and play at various skill levels but our love for the game is what brought us together. We strive to create an environment that encourages teamwork and driving one another to improve at the game.
