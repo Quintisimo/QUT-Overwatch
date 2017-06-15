@@ -14,7 +14,10 @@ gulp.task('serve', function () {
 
 gulp.task('watch', function () {
   gulp.watch("_includes/jade/*.jade", browserSync.reload);
+  gulp.watch("index.jade", browserSync.reload);
   gulp.watch("_includes/sass/*.sass", browserSync.reload);
+  gulp.watch("css/*.sass", browserSync.reload);
+  gulp.watch("js/*.coffee", browserSync.reload);
 });
 
 gulp.task('default', ['serve', 'watch']);

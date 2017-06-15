@@ -1,17 +1,5 @@
 section#social
   #fb-root
-  script.
-    (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=263835507426067";
-      fjs.parentNode.insertBefore(js, fjs);
-    }
-    (document, 'script', 'facebook-jssdk'));
-
   h1 Socials
-  
   iframe(src='https://discordapp.com/widget?id=283925065613967360&theme=dark' allowtransparency='true' frameborder='0')
-  
   .fb-page(data-href='https://www.facebook.com/qutoverwatch/', data-tabs='timeline', data-width='500', data-height='400', data-small-header='false', data-adapt-container-width='true', data-hide-cover='false', data-show-facepile='false')
