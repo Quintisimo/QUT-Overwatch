@@ -1,0 +1,12 @@
+{
+  "globals": {
+    "title": "QUT Overwatch",
+    "staff": {
+      "Ambissal#1491": ["images/staff/faces/1.jpg", "images/staff/mains/1.jpg"],
+      "Quintisimo#11919": ["images/staff/faces/2.jpg", "images/staff/mains/2.jpg"],
+      "Winter#11660": ["images/staff/faces/3.jpg", "images/staff/mains/3.jpg"],
+      "Insayne#1473": ["images/staff/faces/4.jpg", "images/staff/mains/4.jpg"],
+      "Deastr0#1736": ["images/staff/faces/5.jpg", "images/staff/mains/5.jpg"]
+    }
+  }
+}

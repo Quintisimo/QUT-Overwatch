@@ -1,13 +1,13 @@
 doctype
 html
   head 
-    title QUT Overwatch
+    title #{ title }
     link(href='css/style.css', rel='stylesheet', type='text/css')
     link(href='images/title.png' rel='icon' type='image/x-icon')
     script(src='js/script.js' type='text/javascript')
   
   body
-    include _includes/jade/header
-    include _includes/jade/home
-    include _includes/jade/social
-    include _includes/jade/about
+    include ../_includes/jade/header
+    include ../_includes/jade/home
+    include ../_includes/jade/social
+    include ../_includes/jade/about

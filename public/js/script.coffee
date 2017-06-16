@@ -1,4 +1,6 @@
 ((d, s, id) ->
+  fjs = undefined
+  js = undefined
   js = undefined
   fjs = d.getElementsByTagName(s)[0]
   if d.getElementById(id)
