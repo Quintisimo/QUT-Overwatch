@@ -18,7 +18,7 @@ gulp.task('watch', function () {
   gulp.watch("public/index.jade", browserSync.reload);
   gulp.watch("_includes/sass/*.sass", browserSync.reload);
   gulp.watch("public/css/*.sass", browserSync.reload);
-  gulp.watch("public/js/*.coffee", browserSync.reload);
+  gulp.watch("public/js/*.js", browserSync.reload);
 });
 
 gulp.task('default', ['serve', 'watch']);
