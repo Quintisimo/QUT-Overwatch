@@ -7,7 +7,8 @@ gulp.task('serve', function () {
     port: 9000
   }, function() {
     browserSync.init({
-      proxy: "localhost:9000"
+      proxy: "localhost:9000",
+      notify: false
     });
   });
 });
