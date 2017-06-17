@@ -3,17 +3,10 @@
   flex-wrap: wrap
   align-items: center
   justify-content: space-around
-  padding: 40px 0
   background:
     image: url(../images/covers/about.jpg)
     size: cover
     position: center
-
-  h1
-    flex: 1 100%
-    font-size: 35px
-    text-align: center
-    padding-bottom: 30px
 
   #staff
     display: flex
@@ -24,6 +17,7 @@
   p
     display: inline-block
     font-size: 25px
+    text-align: center
     width: 50%
     padding-top: 30px
 
@@ -64,3 +58,7 @@
         width: inherit
         z-index: 2
         cursor: pointer
+
+@media screen and (max-width: 740px)
+  #about
+    height: auto
