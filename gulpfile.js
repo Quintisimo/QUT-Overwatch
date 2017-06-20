@@ -14,9 +14,9 @@ gulp.task('serve', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch("_includes/jade/*.jade", browserSync.reload);
+  gulp.watch("includes/jade/*.jade", browserSync.reload);
   gulp.watch("public/index.jade", browserSync.reload);
-  gulp.watch("_includes/sass/*.sass", browserSync.reload);
+  gulp.watch("includes/sass/*.sass", browserSync.reload);
   gulp.watch("public/css/*.sass", browserSync.reload);
   gulp.watch("public/js/*.js", browserSync.reload);
 });

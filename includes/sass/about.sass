@@ -21,11 +21,17 @@
     width: 50%
     padding-top: 30px
 
-  img
+  img.avatar
     width: 170px
     height: 170px
     border-radius: 50%
     cursor: pointer
+    margin-top: 35px
+
+  img.rank
+    width: 70px
+    height: 70px
+    padding-top: 20px
 
   .flipped
     transform: rotateY(180deg)
@@ -46,17 +52,17 @@
       left: 0
       width: 170px
       height: 170px
+      text-align: center
       transform: rotateY(180deg)
       backface-visibility: hidden
 
+      .player-rank
+        margin-top: -100px
+
       span
-        position: absolute
-        top: 75px
-        text-align: center
         font-size: 30px
         color: $player-id
         width: inherit
-        z-index: 2
         cursor: pointer
 
 @media screen and (max-width: 740px)

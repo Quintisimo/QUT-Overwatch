@@ -3,11 +3,21 @@
     "title": "QUT Overwatch",
     "about": "QUT Overwatch are a bunch of people who are interested in meeting new people and playing the game. We all come from different walks of life and play at various skill levels but our love for the game is what unities us. We strive to create an environment that encourages teamwork and driving one another to improve at the game.",
     "staff": {
-      "Ambissal#1491": ["images/staff/faces/1.jpg", "images/staff/mains/1.jpg"],
-      "Quintisimo#11919": ["images/staff/faces/2.jpg", "images/staff/mains/2.jpg"],
-      "Winter#11660": ["images/staff/faces/3.jpg", "images/staff/mains/3.jpg"],
-      "Insayne#1473": ["images/staff/faces/4.jpg", "images/staff/mains/4.jpg"],
-      "Deastr0#1736": ["images/staff/faces/5.jpg", "images/staff/mains/5.jpg"]
+      "Ambissal#1491": ["images/staff/faces/1.jpg", "images/staff/mains/1.jpg", "bronze"],
+      "Quintisimo#11919": ["images/staff/faces/2.jpg", "images/staff/mains/2.jpg", "gold"],
+      "Winter#11660": ["images/staff/faces/3.jpg", "images/staff/mains/3.jpg", "platinum"],
+      "Insayne#1473": ["images/staff/faces/4.jpg", "images/staff/mains/4.jpg", "platinum"],
+      "Deastr0#1736": ["images/staff/faces/5.jpg", "images/staff/mains/5.jpg", "silver"]
+    },
+    "ranks": {
+      "bronze": "images/staff/ranks/1.png",
+      "silver": "images/staff/ranks/2.png",
+      "gold": "images/staff/ranks/3.png",
+      "platinum": "images/staff/ranks/4.png",
+      "diamond": "images/staff/ranks/5.png",
+      "master": "images/staff/ranks/6.png",
+      "grand-master": "images/staff/ranks/7.png",
+      "top-500": "images/staff/ranks/8.png"
     }
   }
 }

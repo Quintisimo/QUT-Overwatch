@@ -1,0 +1,18 @@
+section#about
+  h1 Who are we ?
+  
+  #staff
+    each person, index in staff
+      .person 
+        .person-face
+          img.avatar(src='#{ person[0] }')
+        .player-id
+          img.avatar(src='#{ person[1] }')
+          .player-rank
+            span #{ index }
+            
+            each rank, index in ranks
+              if index == person[2]
+                img.rank(src='#{ rank }')
+      
+  p #{ about }
