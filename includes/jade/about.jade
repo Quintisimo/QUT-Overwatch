@@ -5,10 +5,10 @@ section#about
     each person, index in staff
       .person 
         .person-face
-          img.avatar(src='#{ person[0] }')
-        .player-id
+          img.avatar(src='#{ person[0] }', title="Click to see battletag")
+        .player-avatar
           img.avatar(src='#{ person[1] }')
-          .player-rank
+          .player-id(title="Click to see global ranking")
             span #{ index }
             
             each rank, index in ranks

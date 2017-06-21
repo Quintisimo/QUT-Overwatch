@@ -46,7 +46,7 @@
       backface-visibility: hidden
 
 
-    .player-id
+    .player-avatar
       position: absolute
       top: 0
       left: 0
@@ -56,15 +56,15 @@
       transform: rotateY(180deg)
       backface-visibility: hidden
 
-      .player-rank
+      .player-id
         margin-top: -100px
-
-      span
-        font-size: 30px
-        color: $player-id
-        width: inherit
         cursor: pointer
 
-@media screen and (max-width: 740px)
+        span
+          font-size: 30px
+          color: $player-id
+          width: inherit
+
+@media screen and (max-width: 412px)
   #about
     height: auto

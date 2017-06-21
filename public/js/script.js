@@ -7,9 +7,15 @@
   }
  (document, 'script', 'facebook-jssdk'));
 
-$(document).ready(function(){
-  $('.person').click(function(){
+$(document).ready(function() {
+  $('.person').click(function() {
     $(this).toggleClass('flipped');
+  });
+
+  $('.player-id').click(function() {
+    var rank = $(this).children().text();
+    rank = rank.replace("#", "-");
+    window.open("https://masteroverwatch.com/profile/pc/us/" + rank);
   });
 
   $('a').on('click', function(event) {
