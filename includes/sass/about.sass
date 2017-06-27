@@ -18,20 +18,33 @@
     display: inline-block
     font-size: 25px
     text-align: center
-    width: 50%
+    width: 80%
     padding-top: 30px
 
-  img.avatar
+  @media (max-width: 1000px)
+    p
+      font-size: 40px
+
+  .avatar
     width: 170px
     height: 170px
     border-radius: 50%
     cursor: pointer
     margin-top: 35px
 
-  img.rank
+  @media (max-width: 1000px)
+    .avatar
+      width: 250px
+      height: 250px
+
+  .rank
     width: 70px
     height: 70px
     padding-top: 20px
+
+  @media (max-width: 1000px)
+    .rank
+      padding-top: 70px
 
   .flipped
     transform: rotateY(180deg)
@@ -61,10 +74,15 @@
         cursor: pointer
 
         span
+          display: block
           font-size: 30px
           color: $player-id
           width: inherit
 
-@media screen and (max-width: 300px)
-  #about
-    height: auto
+    @media (max-width: 1000px)
+      .player-avatar
+        width: 250px
+        height: 250px
+
+        .player-id
+          margin-top: -150px
