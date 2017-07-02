@@ -5,25 +5,16 @@ body, h1, p
   font-family: bignoodletitlingregular
   color: white
 
-section
-  height: calc(100vh - 120px)
+h1
+  font-size: 2rem
+  text-align: center
 
-  h1
-    flex: 1 100%
-    font-size: 35px
-    text-align: center
-
-  @media (max-width: 1000px)
-    h1
-      font-size: 45px
-      margin-top: 80px
-
-@media (max-width: 1000px)
-  section
-    height: auto
+@media (max-width: 800px)
+  html
+    font-size: 12px
 
 @import includes/sass/vars
 @import includes/sass/header
-@import includes/sass/home
+@import includes/sass/index
 @import includes/sass/social
 @import includes/sass/about

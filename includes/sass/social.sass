@@ -1,5 +1,6 @@
 #social
   display: flex
+  padding-bottom: 5rem
   justify-content: space-around
   align-items: center
   flex-wrap: wrap
@@ -8,15 +9,14 @@
     size: cover
     position: center
 
+  h1
+    flex: 1 100%
+    margin: 6rem 0 2rem 0
+
   iframe
     width: 400px
     height: 400px
 
-@media (max-width: 1000px)
-  #social
-    padding-bottom: 120px
-
+  @media (max-width: 800px)
     iframe
-      width: 500px
-      height: 500px
-      margin: 20px 0
+      margin-bottom: 30px
