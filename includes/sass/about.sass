@@ -8,10 +8,6 @@
     size: cover
     position: center
 
-  h1
-    flex: 1 100%
-    margin: 6rem 0 2rem 0
-
   #staff
     display: flex
     justify-content: space-around
@@ -24,6 +20,10 @@
     text-align: center
     width: 80%
     padding-top: 30px
+
+    &:nth-of-type(2)
+      padding: 1rem
+
 
   .avatar
     width: 10rem
@@ -70,3 +70,13 @@
           font-size: 2rem
           color: $player-id
           width: inherit
+
+  a
+    width: calc(100% - 4rem)
+    color: inherit
+    font-size: 6rem
+    word-wrap: break-word
+    margin: 0 2rem
+    text:
+      decoration: none
+      align: center
