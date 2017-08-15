@@ -15,7 +15,7 @@
   $(document).ready ->
 
     # Dismisses mobile navigation
-    dismissNav = () -> $('.mobile-nav').removeClass('is-visible')
+    dismissNav = -> $('.mobile-nav').removeClass('is-visible')
 
     # Filps persons face on click
     $('.person').click ->
@@ -39,7 +39,7 @@
         hash = this.hash
         $('html, body').animate({
           scrollTop: $(hash).offset().top - height
-        }, 800, () ->
+        }, 800, ->
           window.location.hash = hash
           return
         )
