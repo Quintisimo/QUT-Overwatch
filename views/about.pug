@@ -3,20 +3,20 @@ section#about
   
   // Loops through each person in harp.json
   #staff
-    each person, index in staff
+    each person, index in records.data.staff
       .person 
         .person-face
-          img.avatar(src='#{ person[0] }', title="Click to see battletag")
+          img.avatar(src=person[0], title='Click to see battletag')
         .player-avatar
-          img.avatar(src='#{ person[1] }')
-          .player-id(title="Click to see global ranking")
+          img.avatar(src=person[1])
+          .player-id(title='Click to see global ranking')
             span #{ index }
             
-            each rank, index in ranks
+            each rank, index in records.data.ranks
               if index == person[2]
-                img.rank(src='#{ rank }')
+                img.rank(src=rank)
       
-  p #{ about }
+  p=about
   
   h1.heading Would you like to help ?
   p Email us with your avaliablity and we will get in contact with you

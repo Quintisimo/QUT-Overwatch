@@ -1,27 +1,17 @@
 {
-  "name": "QUT-Overwatch",
-  "version": "1.0.0",
-  "description": "Website for QUT Overwatch Club",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Quintisimo/QUT-Overwatch.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Quintisimo/QUT-Overwatch/issues"
-  },
-  "homepage": "https://qutoverwatch.netlify.com",
+  "name": "-q-u-t-overwatch",
+  "description": "A website for QUT Overwatch built using roots",
   "dependencies": {
-    "harp": "^0.24.0"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1"
+    "autoprefixer-stylus": "0.9.x",
+    "axis": "0.6.x",
+    "coffee-script": "1.x",
+    "css-pipeline": "0.3.x",
+    "js-pipeline": "0.2.x",
+    "jstransformer-marked": "1.x",
+    "marked": "0.3.x",
+    "pug": "^2.0.0-rc.3",
+    "roots-records": "^0.5.1",
+    "rupture": "0.6.x",
+    "stylus": "0.54.x"
   }
 }
