@@ -1,6 +1,6 @@
 {
-  "name": "-q-u-t-overwatch",
-  "description": "A website for QUT Overwatch built using roots",
+  "name": "QUT-overwatch",
+  "description": "A website for QUT Overwatch",
   "dependencies": {
     "autoprefixer-stylus": "0.9.x",
     "axis": "0.6.x",
@@ -10,6 +10,7 @@
     "jstransformer-marked": "1.x",
     "marked": "0.3.x",
     "pug": "^2.0.0-rc.3",
+    "roots": "^5.2.0",
     "roots-records": "^0.5.1",
     "rupture": "0.6.x",
     "stylus": "0.54.x"
