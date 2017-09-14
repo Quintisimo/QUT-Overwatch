@@ -1,0 +1,31 @@
+#Staff members of QUT Overwatch
+  staff:
+    Quintisimo#11919:
+      - img/staff/faces/2.jpg
+      - img/staff/mains/2.jpg
+      - gold
+
+    Winter#11660:
+      - img/staff/faces/3.jpg
+      - img/staff/mains/3.jpg
+      - platinum
+
+    Insayne#1473:
+      - img/staff/faces/4.jpg
+      - img/staff/mains/4.jpg
+      - platinum
+
+    Deastr0#1736:
+      - img/staff/faces/5.jpg
+      - img/staff/mains/5.jpg
+      - silver
+
+  ranks:
+    bronze: img/staff/ranks/1.png
+    silver: img/staff/ranks/2.png
+    gold: img/staff/ranks/3.png
+    platinum: img/staff/ranks/4.png
+    diamond: img/staff/ranks/5.png
+    master: img/staff/ranks/6.png
+    grandMaster: img/staff/ranks/7.png
+    top500: img/staff/ranks/8.png

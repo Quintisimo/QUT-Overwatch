@@ -1,9 +1,9 @@
 section#about
   h1.heading Who are we ?
   
-  // Loops through each person in data.json
+  // Loops through each person in managers.yaml
   #staff
-    each person, index in records.data.staff
+    each person, index in data.managers.staff
       .person 
         .person-face
           img.avatar(src=person[0], title='Click to see battletag')
@@ -12,7 +12,7 @@ section#about
           .player-id(title='Click to see global ranking')
             span #{ index }
             
-            each rank, index in records.data.ranks
+            each rank, index in data.managers.ranks
               if index == person[2]
                 img.rank(src=rank)
       
