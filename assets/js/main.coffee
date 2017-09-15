@@ -1,3 +1,4 @@
+countDownDate = new Date("Oct 7, 2017 10:00:00").getTime()
 # Facebook widget
 ((d, s, id) ->
   js
@@ -54,5 +55,23 @@
     # Dismisses mobile navgation
     $('#mobile-nav-dismiss').click(dismissNav)
     $(document).click(dismissNav)
+
+    #Countdown to tournament
+    x = setInterval((->
+      now = new Date().getTime();
+      distance = countDownDate - now
+      days = Math.floor(distance / (1000 * 60 * 60 * 24))
+      hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+      minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+      seconds = Math.floor((distance % (1000 * 60)) / 1000)
+      $('#timer').text("#{days}d #{hours}h #{minutes}m #{seconds}s")
+
+      if distance < 0
+        clearInterval(x)
+        $('#timer').text('Expired')
+      return
+    ), 1000)
+
     return
+  return
 ) jQuery
