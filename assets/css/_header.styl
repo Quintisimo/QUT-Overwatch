@@ -1,19 +1,17 @@
 header
-  position: fixed
+  fixed(top 0)
   display: flex
   justify-content: space-between
   align-items: center
-  top: 0
   background-color: $accent-light
-  width: 100%
-  height: 8rem
+  size(100% 8rem)
   z-index: 1
 
   #mobile-nav-toggle
     display: none
 
   img
-    size: 12rem 7rem
+    size(12rem 7rem)
     padding: 10px
 
   nav
@@ -38,8 +36,8 @@ header
       display: none
 
 .mobile-nav
-  fixed: top 0 left 0
-  size: 60% 100%
+  fixed(top 0 left 0)
+  size(60% 100%)
   background: $accent-dark
   transform: translateX(-100%)
   transition: all 0.5s ease-in-out

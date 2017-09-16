@@ -2,21 +2,19 @@
   min-height: 100vh
 
   #home-bg
-    absolute: top 0 left 0
+    absolute(top 0 left 0)
     min-height: inherit
     width: 100%
     z-index: -1
-    background-image: url(../img/covers/home.jpg)
+    bg('../img/covers/home.jpg', center)
     background-size: cover
-    background-position: center
 
   #home-content
-    absolute: top 8rem
+    absolute(top 8rem)
     display: flex
     align-items: center
     justify-content: center
-    height: calc(100% - 8rem)
-    width: 100%
+    size(100% calc(100% - 8rem))
 
     #title
 
