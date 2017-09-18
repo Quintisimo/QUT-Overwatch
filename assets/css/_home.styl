@@ -17,10 +17,13 @@
     size(100% calc(100% - 8rem))
 
     #title
-
       h1
         font-size: 8rem
         text-align: center
+
+      @media(max-width: 320px)
+        h1
+          font-size: 5rem
 
       span
         display: block
@@ -36,11 +39,11 @@
         box-shadow: 5px 5px 0 0 darken($accent-light, 10)
 
         h2
-          padding-top: 30px
+          padding-top: 2rem
           text-align: center
           font-size: 3rem
 
         #timer
           display: block
           text-align: center
-          font-size: 7rem
+          font-size: 5rem
