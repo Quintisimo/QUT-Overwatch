@@ -1,4 +1,6 @@
+#Midsemester Madness Tournament date
 countDownDate = new Date("Oct 7, 2017 10:00:00").getTime()
+
 # Facebook widget
 ((d, s, id) ->
   js

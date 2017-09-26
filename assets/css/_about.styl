@@ -1,72 +1,72 @@
 #about
-  display: flex
-  flex-wrap: wrap
-  align-items: center
-  justify-content: space-around
+  display flex
+  flex-wrap wrap
+  align-items center
+  justify-content space-around
   bg('../img/covers/about.jpg', center)
-  background-size: cover
+  background-size cover
 
   #staff
-    display: flex
-    justify-content: space-around
-    flex: 1 100%
-    flex-wrap: wrap
+    display flex
+    justify-content space-around
+    flex 1 100%
+    flex-wrap wrap
 
   p
-    font-size: 1.5rem
-    text-align: center
-    width: 80%
-    padding-top: 30px
+    font-size 1.5rem
+    text-align center
+    width 80%
+    padding-top 30px
 
     &:nth-of-type(2)
-      padding: 1rem
+      padding 1rem
 
 
   .avatar
     size(10rem)
-    border-radius: 50%
-    cursor: pointer
-    margin-top: 35px
+    border-radius 50%
+    cursor pointer
+    margin-top 35px
 
   .rank
     size(5rem)
-    padding-top: 1.2rem
+    padding-top 1.2rem
 
   .flipped
-    transform: rotateY(180deg)
+    transform rotateY(180deg)
 
   .person
-    margin: 0 20px
-    transition: 0.5s ease-in-out
-    transform-style: preserve-3d
+    margin 0 20px
+    transition 0.5s ease-in-out
+    transform-style preserve-3d
 
     .person-face
       relative()
-      backface-visibility: hidden
+      backface-visibility hidden
 
 
     .player-avatar
       absolute(top 0 left 0)
       size(10rem)
-      text-align: center
-      transform: rotateY(180deg)
-      backface-visibility: hidden
+      text-align center
+      transform rotateY(180deg)
+      backface-visibility hidden
 
       .player-id
-        margin-top: -7rem
-        cursor: pointer
+        margin-top -7rem
+        cursor pointer
 
         span
-          display: block
-          font-size: 2rem
-          color: $player-id
-          width: inherit
+          display block
+          font-size 2rem
+          color $player-id
+          width inherit
 
   a
-    width: calc(100% - 4rem)
-    color: inherit
-    font-size: 6rem
-    word-wrap: break-word
-    margin: 0 2rem
-    text-decoration: none
-    text-align: center
+    width calc(100% - 4rem)
+    color inherit
+    font-size 6rem
+    word-wrap break-word
+    margin 0 2rem
+    text-decoration none
+    text-align center
