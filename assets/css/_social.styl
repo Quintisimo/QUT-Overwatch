@@ -7,13 +7,12 @@
   bg('../img/covers/social.png', center)
   background-size cover
 
+  @media (max-width 800px)
+    padding-bottom 140px
+
   iframe, .fb-page
     size 400px
 
-@media (max-width 800px)
-  #social
-    padding-bottom 140px
-
-    iframe, .fb-page
+    @media (max-width 800px)
       size(300px)
       margin 20px auto

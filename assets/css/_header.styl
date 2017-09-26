@@ -1,8 +1,5 @@
 header
   fixed(top 0)
-  display flex
-  justify-content space-between
-  align-items center
   background-color $accent-light
   size(100% 8rem)
   z-index 1
@@ -10,12 +7,27 @@ header
   #mobile-nav-toggle
     display none
 
+    @media (max-width 800px)
+      display inline-block
+      font-size 3rem
+      margin-left 20px
+      float left
+
   img
     size(12rem 7rem)
     padding 10px
+    float left
+
+    @media (max-width 800px)
+      float right
 
   nav
     text-align right
+    float right
+    vertically-align()
+
+    @media (max-width 800px)
+      display none
 
     a
       color inherit
@@ -23,17 +35,8 @@ header
       font-size 2rem
       padding 0 20px
 
-      &hover
+      &:hover
         color $accent-dark
-
-  @media (max-width 800px)
-    #mobile-nav-toggle
-      font-size 3rem
-      display block
-      margin-left 20px
-
-    nav
-      display none
 
 .mobile-nav
   fixed(top 0 left 0)
