@@ -1,4 +1,4 @@
-#Midsemester Madness Tournament date
+# Tournament date
 countDownDate = new Date("Oct 7, 2017 10:00:00").getTime()
 
 # Facebook widget
@@ -29,7 +29,7 @@ countDownDate = new Date("Oct 7, 2017 10:00:00").getTime()
     $('.player-id').click ->
       rank = $(this).children().text()
       rank = rank.replace("#", "-")
-      window.open("https://masteroverwatch.com/profile/pc/us/" + rank)
+      window.open("https://masteroverwatch.com/profile/pc/us/#{rank}")
       return
 
     # Smooth scroll
@@ -58,7 +58,7 @@ countDownDate = new Date("Oct 7, 2017 10:00:00").getTime()
     $('#mobile-nav-dismiss').click(dismissNav)
     $(document).click(dismissNav)
 
-    #Countdown to tournament
+    # Countdown to tournament
     x = setInterval((->
       now = new Date().getTime();
       distance = countDownDate - now
