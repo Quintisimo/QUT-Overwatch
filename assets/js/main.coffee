@@ -1,5 +1,5 @@
 # Tournament date
-countDownDate = new Date("Oct 7, 2017 10:00:00").getTime()
+countDownDate = new Date('Oct 7, 2017 10:00:00').getTime()
 
 # Facebook widget
 ((d, s, id) ->
@@ -8,7 +8,7 @@ countDownDate = new Date("Oct 7, 2017 10:00:00").getTime()
   if d.getElementById(id)
     return
   js = d.createElement(s); js.id = id
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=263835507426067"
+  js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=263835507426067'
   fjs.parentNode.insertBefore(js, fjs)
 ) document, 'script', 'facebook-jssdk'
 
@@ -35,16 +35,14 @@ countDownDate = new Date("Oct 7, 2017 10:00:00").getTime()
     # Smooth scroll
     $('a').click (event) ->
       size = $('html').css('font-size').replace('px', '')
-      height = 8*size
+      height = 8 * size
 
       if this.hash != ""
         event.preventDefault()
         hash = this.hash
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top - height
-        }, 800, ->
-          window.location.hash = hash
-          return
+        top = $(hash).offset().top - height
+        $('html, body').animate(
+          scrollTop: top, 800
         )
       return
 
