@@ -9,7 +9,7 @@ section#about
           img.avatar(src=person[0], title='Click to see battletag')
         .player-avatar
           img.avatar(src=person[1])
-          .player-id(title='Click to see global ranking')
+          .player-id
             span #{ index }
             
             each rank, index in data.managers.ranks

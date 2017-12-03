@@ -25,13 +25,6 @@ countDownDate = new Date('Oct 7, 2017 10:00:00').getTime()
       $(this).toggleClass('flipped')
       return
 
-    # Displays players rank when rank is clicked
-    $('.player-id').click ->
-      rank = $(this).children().text()
-      rank = rank.replace("#", "-")
-      window.open("https://masteroverwatch.com/profile/pc/us/#{rank}")
-      return
-
     # Smooth scroll
     $('a').click (event) ->
       size = $('html').css('font-size').replace('px', '')
