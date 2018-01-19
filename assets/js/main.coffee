@@ -5,8 +5,7 @@ countDownDate = new Date('Oct 7, 2017 10:00:00').getTime()
 ((d, s, id) ->
   js
   fjs = d.getElementsByTagName(s)[0]
-  if d.getElementById(id)
-    return
+  if d.getElementById(id) then return
   js = d.createElement(s); js.id = id
   js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=263835507426067'
   fjs.parentNode.insertBefore(js, fjs)
