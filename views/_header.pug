@@ -4,20 +4,21 @@ header
   img(src='img/logo.png' alt='Logo')
 
   nav
-    a(href='#home') Home
+    a(href='#home').is-selected Home
     a(href='#social') Social
     a(href='#about') About Us
 
 // Header navigation for mobile
 .mobile-nav
   h1#mobile-nav-dismiss ✕
-  .link
-    i(class='fa fa-home', aria-hidden='true')
-    a(href='#home') Home
-  .link
-    i(class='fa fa-share-alt', aria-hidden='true')
-    a(href='#social') Social
-  .link
-    i(class='fa fa-leanpub', aria-hidden='true')
-    a(href='#about') About Us
+  .nav
+    .link
+      i(class='fa fa-home', aria-hidden='true')
+      a(href='#home') Home
+    .link
+      i(class='fa fa-share-alt', aria-hidden='true')
+      a(href='#social') Social
+    .link
+      i(class='fa fa-leanpub', aria-hidden='true')
+      a(href='#about') About Us
     

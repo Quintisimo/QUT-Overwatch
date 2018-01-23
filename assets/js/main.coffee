@@ -16,6 +16,12 @@ countDownDate = new Date('Oct 7, 2017 10:00:00').getTime()
 
   $(document).ready ->
 
+    # Highlights current section in nav
+    $('nav a').click ->
+      $('nav a').removeClass('is-selected')
+      $(this).toggleClass('is-selected')
+      return
+
     # Dismisses mobile navigation
     dismissNav = -> $('.mobile-nav').removeClass('is-visible')
 
