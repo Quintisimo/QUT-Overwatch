@@ -20,6 +20,11 @@
       - img/staff/mains/5.jpg
       - silver
 
+    Macree#11770:
+      - img/staff/faces/6.jpg
+      - img/staff/mains/6.jpg
+      - platinum
+
   ranks:
     bronze: img/staff/ranks/1.png
     silver: img/staff/ranks/2.png
