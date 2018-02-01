@@ -1,36 +1,31 @@
 #Staff members of QUT Overwatch
   staff:
-    Quintisimo#11919:
-      - img/staff/faces/2.jpg
-      - img/staff/mains/2.jpg
-      - gold
-
     Winter#11660:
-      - img/staff/faces/3.jpg
-      - img/staff/mains/3.jpg
+      - img/staff/faces/josiah.jpg
+      - img/staff/mains/zarya.jpg
       - diamond
 
     Insayne#1473:
-      - img/staff/faces/4.jpg
-      - img/staff/mains/4.jpg
+      - img/staff/faces/jacobm.jpg
+      - img/staff/mains/lucio.jpg
       - platinum
 
-    Deastr0#1736:
-      - img/staff/faces/5.jpg
-      - img/staff/mains/5.jpg
-      - silver
-
     Macree#11770:
-      - img/staff/faces/6.jpg
-      - img/staff/mains/6.jpg
+      - img/staff/faces/lachlan.jpg
+      - img/staff/mains/macree.jpg
+      - platinum
+
+    Badman#1135:
+      - img/staff/faces/tyler.jpg
+      - img/staff/mains/macree.jpg
       - platinum
 
   ranks:
-    bronze: img/staff/ranks/1.png
-    silver: img/staff/ranks/2.png
-    gold: img/staff/ranks/3.png
-    platinum: img/staff/ranks/4.png
-    diamond: img/staff/ranks/5.png
-    master: img/staff/ranks/6.png
-    grandMaster: img/staff/ranks/7.png
-    top500: img/staff/ranks/8.png
+    bronze: img/staff/ranks/bronze.png
+    silver: img/staff/ranks/silver.png
+    gold: img/staff/ranks/gold.png
+    platinum: img/staff/ranks/platinum.png
+    diamond: img/staff/ranks/diamond.png
+    master: img/staff/ranks/master.png
+    grandMaster: img/staff/ranks/grand master.png
+    top500: img/staff/ranks/top 500.png
